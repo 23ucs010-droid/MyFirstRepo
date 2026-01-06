@@ -6,4 +6,13 @@
   .animate-spin-slow {
     animation: spin 6s linear infinite;
   }
+
+  /* Accessibility: hide text visually but keep for screen readers */
+  .visually-hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
 }
