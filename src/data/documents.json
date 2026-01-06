@@ -1,0 +1,102 @@
+[
+  {
+    "id": "passport",
+    "title": "Passport Application",
+    "desc": "Prepare your documents for passport application or renewal.",
+    "items": [
+      {
+        "id": "p-id",
+        "name": "Proof of Identity",
+        "required": true
+      },
+      {
+        "id": "p-address",
+        "name": "Proof of Address",
+        "required": true
+      },
+      {
+        "id": "p-dob",
+        "name": "Proof of Date of Birth",
+        "required": true
+      },
+      {
+        "id": "p-photo",
+        "name": "Passport Photograph",
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "aadhaar",
+    "title": "Aadhaar Services",
+    "desc": "Update or apply for Aadhaar related services.",
+    "items": [
+      {
+        "id": "a-id",
+        "name": "Proof of Identity",
+        "required": true
+      },
+      {
+        "id": "a-address",
+        "name": "Proof of Address",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "taluk",
+    "title": "Taluk Office Services",
+    "desc": "Services at your local Taluk office.",
+    "items": [
+      {
+        "id": "t-id",
+        "name": "Proof of Identity",
+        "required": true
+      },
+      {
+        "id": "t-address",
+        "name": "Proof of Address",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "bank",
+    "title": "Bank Services",
+    "desc": "KYC, account opening and banking services.",
+    "items": [
+      {
+        "id": "b-id",
+        "name": "Proof of Identity",
+        "required": true
+      },
+      {
+        "id": "b-pan",
+        "name": "PAN Card",
+        "required": true
+      },
+      {
+        "id": "b-address",
+        "name": "Proof of Address",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "esevai",
+    "title": "eSevai Services",
+    "desc": "eSevai digital services and certificates.",
+    "items": [
+      {
+        "id": "e-id",
+        "name": "Proof of Identity",
+        "required": true
+      },
+      {
+        "id": "e-address",
+        "name": "Proof of Address",
+        "required": false
+      }
+    ]
+  }
+]
